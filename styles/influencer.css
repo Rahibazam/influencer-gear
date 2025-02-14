@@ -23,6 +23,43 @@ body{
     display: flex;
 }
 
+.primary-btn{
+    display: flex;
+    background-color: #E02C6D;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 41px;
+    transition: 0.5s ;
+    
+}
+
+:hover.primary-btn{
+    background-color: crimson;
+    cursor: pointer;
+}
+
+.btn-link, .primary-btn{
+    text-decoration: none;
+    color: white;
+    line-height: 150%;
+}
+
+.btn-link > .primary-btn > .size-6{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    padding: 0px;
+    transition: 0.5s;
+
+}
+
+:hover.btn-link > .primary-btn > .size-6{
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
 
 /* nav styles */
 
@@ -78,4 +115,62 @@ nav > ul > li > a{
     width: 30px;
     height: 30px;
     padding-top: 8px;
+}
+
+/* banner styles */
+
+.banner > .primary-container{
+    display: flex;
+    margin: 145px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content{
+    width: 582px;
+}
+
+.banner-content > h1{
+    font-size: 3.25rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.banner-content > p{
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.banner-image{
+    width: 475px;
+    height: 475px;
+    background-image: url(../images/Circle\ design.svg);
+}
+
+.banner-image > img{
+    margin: 20px 30px;
+}
+
+/* partners section styles */
+
+.partners{
+    border-top: 1px solid rgb(214, 214, 214);
+    border-bottom: 1px solid rgb(214, 214, 214);
+    padding: 20px;
+    width: 1090px;
+    margin: 0px auto 100px auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.partner-logo{
+    transition: 0.5s;
+}
+
+:hover.partner-logo{
+    transform: scale(0.8) rotate(360deg);
 }
