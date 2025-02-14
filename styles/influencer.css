@@ -1,0 +1,81 @@
+
+
+/* shared styles */
+
+
+body{
+    font-family: "Poppins", serif;
+    color: #3A3A3A;
+    margin: 0px;
+}
+
+.primary-container{
+    width: 1155px;
+     margin: 0px auto;
+}
+
+.secondary-container{
+    width: 1047px;
+    margin: 0px auto;
+}
+
+.display-flex{
+    display: flex;
+}
+
+
+/* nav styles */
+
+header > .primary-container, .display-flex{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.website-logo > h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    margin-right: 34px;
+}
+
+nav > ul{
+    list-style: none;
+    display: flex;
+    gap: 34px;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #3A3A3A;
+    font-weight: 600;
+}
+
+.nav-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search{
+    width: 20px;
+    height: 20px;
+    margin-right: 34px;
+    padding-top: 8px;
+}
+
+
+.cart{
+    width: 30px;
+    height: 30px;
+    padding-top: 8px;
+}
