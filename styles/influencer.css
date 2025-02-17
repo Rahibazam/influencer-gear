@@ -174,3 +174,55 @@ nav > ul > li > a{
 :hover.partner-logo{
     transform: scale(0.8) rotate(360deg);
 }
+
+/* popular collection styles */
+
+.popular-collection{
+    margin: 100px auto;
+}
+
+.popular-collection-title{
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 30px;
+}
+
+.collection-cards-container{
+    width: 1047px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.popular-collection-cards{
+    box-shadow: 1px 1px 40px rgb(0, 0, 0, 15%);
+    border-radius: 5px;
+    padding: 17px 15px;
+    transition: 0.5s;
+    
+}
+
+:hover.popular-collection-cards{
+    transform: scale(1.05);
+    
+}
+
+.collection-card > h3{
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin: 16px 0px 6px 0px;
+}
+
+.pricing{
+    font-size: 1.5rem;
+    font: normal;
+    margin: 0px;
+}
+
+.card-desc{
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: #787885;
+    margin: 0px;
+}
+
