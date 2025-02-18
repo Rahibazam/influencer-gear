@@ -306,3 +306,112 @@ footer > .primary-container{
     transform: scale(1.2);
 }
 
+/* mobile responsiveness */
+
+@media screen and (max-width: 576px) {
+
+    header{
+        display: flex;
+        text-align: center;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        justify-content: center;
+        padding: auto;
+    }
+
+    nav > ul{
+        gap: 15px;
+    }
+
+    header > .primary-container, .display-flex{
+        flex-direction: column;
+        margin: 20px auto auto auto;
+    }
+
+    .banner > .primary-container{
+        flex-direction: column-reverse;
+        width: 90%;
+        margin: 100px auto;
+        padding: auto;
+    }
+
+    .banner-image{
+        width: 267px;
+        height: 267px;
+        border-radius: 50%;
+        padding: 39px;
+        margin: auto;
+        background-position: 50%;
+    }
+
+    .banner-image > img{
+        width: 100%;
+        position: relative;
+        right: 30px;
+    }
+
+    .banner-content{
+        width: 100%;
+        text-align: center;
+        justify-items: center;
+        display: block;
+    }
+
+    .partners{
+        padding: 20px;
+        width: 90%;
+        margin: 0px auto 100px auto;
+        border: none;
+        display: grid;
+        grid-template-columns:repeat(4, 1fr);
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        gap: 2.18px;
+    }
+
+    .partner-logo{
+        text-align: center;
+        width: 90%;
+    }
+
+    .popular-collection > .primary-container{
+        width: 90%;
+    }
+
+    .collection-cards-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .featured-products > .primary-container{
+        margin: auto;
+        gap: 0px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+        width: 90%;
+    }
+
+    .featured-products-content > p{
+        width: auto;
+        text-align: center;
+    }
+
+    .featured-products-content{
+        display: block;
+        justify-items: center;
+        margin-bottom: 20px;
+    }
+
+    .featured-products-image > img{
+        width: 100%;
+    }
+
+    footer > .primary-container{
+        width: 100%;
+    }
+
+}
+
