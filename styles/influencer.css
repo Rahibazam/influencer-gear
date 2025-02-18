@@ -261,3 +261,48 @@ nav > ul > li > a{
     border-radius: 0px;
 }
 
+/* footer section styles */
+
+footer{
+    background-color: #0A0826;
+    padding: 50px 0px;
+
+}
+
+footer > .primary-container{
+    color: white;
+    text-align: center;
+}
+
+.footer-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.copyright-text{
+    font-size: 0.875rem;
+    margin-top: 0px;
+}
+
+.socials > img{
+    padding: 0px 8px;
+    transition: 0.5s;
+}
+
+:hover.instagram{
+    transform: scale(1.2);
+}
+
+:hover.dribbble{
+    transform: scale(1.2);
+}
+
+:hover.twitter{
+    transform: scale(1.2);
+}
+
+:hover.youtube{
+    transform: scale(1.2);
+}
+
